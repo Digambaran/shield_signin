@@ -1,0 +1,13 @@
+{
+  "name": "shield_signin",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Digambaran/shield_signin",
+    "ssh": "git@github.com:Digambaran/shield_signin.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
